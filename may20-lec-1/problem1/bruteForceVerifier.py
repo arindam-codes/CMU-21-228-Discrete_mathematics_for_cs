@@ -5,9 +5,8 @@ def count_all_even_brute():
     while n <= 9999:
         if n % 2 == 0:
             even += 1
-            n += 1
-        elif n <= 9999:
-            n += 1
+            
+        n += 1
 
     return even
 
